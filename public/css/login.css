@@ -1,0 +1,43 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.input-field {
+    height: 36px;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 50%;
+    border-style: none;
+    transition: all 0.5s;
+}
+
+input:hover:invalid {
+    background-color: rgb(221, 63, 63);
+}
+
+.btn-ingresar {
+    
+    width: 50%;
+    height: 36px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #1259c3;
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn-ingresar:hover {
+    background-color:  #0022AA;
+}
